@@ -1,0 +1,1 @@
+namespace lib_schoolmanagement.person;
