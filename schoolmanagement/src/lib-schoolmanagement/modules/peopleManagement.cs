@@ -3,6 +3,7 @@ namespace lib_schoolmanagement.peopleManagement;
 using lib_schoolmanagement.interfaces.iStudentFunctions;
 using lib_schoolmanagement.interfaces.iTeacherFunctions;
 using lib_schoolmanagement.person;
+using lib_schoolmanagement.student;
 
 public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     private PeopleManagement() {}
@@ -17,7 +18,20 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
 
     private List<Person> _peoples = new List<Person>();
 
-    public List<Person> ListPersons() {
-        
+    public List<Person> ListPersons(Type type) {
+        List<Person> listedPersons = new List<Person>();
+
+        foreach (Person person in _peoples) {
+            if (person.GetType() == typeof(Student) && type == Type.STUDENT) {
+
+            }
+        }
+
+        return listedPersons;
     }
+}
+
+public enum Type {
+    STUDENT,
+    TEACHER
 }
