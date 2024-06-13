@@ -13,11 +13,10 @@ internal class PeopleManagement {
         return _instance;
     }
 
-    internal List<Person> _peoples = new List<Person>();
+    private List<Person> _peoples = new List<Person>();
 
     internal List<Person> Peoples {
-        get {
-            return _peoples;
-        }
+        get { return _peoples; }
+        set { _peoples = value; }
     }
 }
