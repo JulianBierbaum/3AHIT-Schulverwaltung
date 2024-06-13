@@ -1,7 +1,0 @@
-namespace lib_schoolmanagement.peopleController;
-
-using lib_schoolmanagement.peopleManagement;
-using lib_schoolmanagement.interfaces.iStudentFunctions;
-using lib_schoolmanagement.interfaces.iTeacherFunctions;
-
-

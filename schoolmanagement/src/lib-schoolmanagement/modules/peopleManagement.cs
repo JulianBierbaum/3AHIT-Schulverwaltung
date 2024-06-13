@@ -1,12 +1,14 @@
 namespace lib_schoolmanagement.peopleManagement;
 
+using lib_schoolmanagement.interfaces.iStudentFunctions;
+using lib_schoolmanagement.interfaces.iTeacherFunctions;
 using lib_schoolmanagement.person;
 
-internal class PeopleManagement {
+public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     private PeopleManagement() {}
     private static PeopleManagement? _instance;
 
-    internal static PeopleManagement GetInstance() {
+    public static PeopleManagement GetInstance() {
         if (_instance == null) {
             _instance = new PeopleManagement();
         }
@@ -15,8 +17,7 @@ internal class PeopleManagement {
 
     private List<Person> _peoples = new List<Person>();
 
-    internal List<Person> Peoples {
-        get { return _peoples; }
-        set { _peoples = value; }
+    public List<Person> ListPersons() {
+        
     }
 }

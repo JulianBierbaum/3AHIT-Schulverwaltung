@@ -2,12 +2,11 @@ namespace lib_schoolmanagement.student;
 
 using lib_schoolmanagement.person;
 
-internal class Student : Person {
-    private string _studentClass;
+public class Student : Person {
+    internal string _studentClass;
 
-    internal string StudentClass {
+    public string StudentClass {
         get { return _studentClass; }
-        set { _studentClass = value; }
     }
 
     internal Student(string name, string studentClass) : base(name) {

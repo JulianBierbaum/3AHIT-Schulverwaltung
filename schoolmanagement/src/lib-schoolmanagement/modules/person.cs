@@ -1,11 +1,10 @@
 namespace lib_schoolmanagement.person;
 
-internal abstract class Person {
-    protected string _name;
+public abstract class Person {
+    internal string _name;
 
-    internal string Name {
+    public string Name {
         get { return _name; }
-        set { _name = value; }
     }
 
     internal Person(string name) {
