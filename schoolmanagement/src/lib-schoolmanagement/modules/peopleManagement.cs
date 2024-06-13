@@ -49,7 +49,29 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
         return searchedPersons;
     }
 
-    
+    public void AddStudent(string name, string studentClass) {
+        _peoples.Add(new Student(name, studentClass));
+    }
+
+    public void AddTeacher(string name, List<string> subjects) {
+        _peoples.Add(new Teacher(name, subjects));
+    }
+
+    public void RemoveStudent(string name, string studentClass) {
+        foreach (Student student in _peoples) {
+            if (student.Name == name && student.StudentClass == studentClass) {
+                _peoples.Remove(student);
+            }
+        }
+    }
+
+    public void RemoveTeacher(string name) {
+        foreach (Teacher teacher in _peoples) {
+            if (teacher.Name == name) {
+                _peoples.Remove(teacher);
+            }
+        }
+    }
 }
 
 public enum Type {
