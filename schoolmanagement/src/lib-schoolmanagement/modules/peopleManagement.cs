@@ -72,6 +72,24 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
             }
         }
     }
+
+    public void ChangeStudent(string name, string studentClass, string newName, string newStudentClass) {
+        foreach (Student student in _peoples) {
+            if (student.Name == name && student.StudentClass == studentClass) {
+                student._name = newName;
+                student._studentClass = newStudentClass;
+            }
+        }
+    }
+
+    public void ChangeTeacher(string name, string newName, List<string> newSubjects) {
+        foreach (Teacher teacher in _peoples) {
+            if (teacher.Name == name) {
+                teacher._name = newName;
+                teacher._subjects = newSubjects;
+            }
+        }
+    }
 }
 
 public enum Type {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj": {}
+    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj": {
+    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj",
+        "projectUniqueName": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj",
         "projectName": "lib-schoolmanagement",
-        "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj",
+        "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj",
         "packagesPath": "C:\\Users\\bierb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\obj\\",
+        "outputPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bierb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj": {
+    "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj",
+        "projectUniqueName": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj",
         "projectName": "tests-schoolmanagement",
-        "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj",
+        "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\tests-schoolmanagement.csproj",
         "packagesPath": "C:\\Users\\bierb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\obj\\",
+        "outputPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\test\\tests-schoolmanagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bierb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj": {
-                "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj"
+              "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj": {
+                "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj"
               }
             }
           }
