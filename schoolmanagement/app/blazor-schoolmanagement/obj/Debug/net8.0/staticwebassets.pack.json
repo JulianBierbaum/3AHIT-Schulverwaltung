@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-schoolmanagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\blazor-schoolmanagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.blazor-schoolmanagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.blazor-schoolmanagement.props",
+      "PackagePath": "build\\blazor-schoolmanagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.blazor-schoolmanagement.props",
+      "PackagePath": "buildMultiTargeting\\blazor-schoolmanagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.blazor-schoolmanagement.props",
+      "PackagePath": "buildTransitive\\blazor-schoolmanagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
