@@ -46,28 +46,32 @@ class Program {
                     break;
                 
                 case "s":
+                    Console.WriteLine("Name of the Person:");
+                    string? name = Console.ReadLine();
+
+                    if (name == null) {
+                        Console.WriteLine("\nInvalid Input\n\n");
+                        break;
+                    }
+
+                    Console.WriteLine("\n\n");
                     Console.WriteLine("What do you want to search?:\n");
                     Console.WriteLine("Students:        | 1 |");
                     Console.WriteLine("Teachers:        | 2 |\n");
 
                     switch (Console.ReadLine()) {
                         case "1":
-                            Console.WriteLine("\n\n");
-                            Console.WriteLine("Name of the Student:");
-                            string? studentName = Console.ReadLine();
-                            Console.WriteLine("\nStudent Class:");
-                            string? studentClass = Console.ReadLine();
-
-                            try {
-                                
-                            }
-                            catch (System.Exception) {
-                                
+                            Console.WriteLine("\n");
+                            foreach (var person in PeopleManagement.GetInstance().SearchPerson(name, Type.STUDENT)) {
+                                Console.WriteLine(person.ToString());
                             }
                             break;
                         
                         case "2":
-                            Console.WriteLine("\n\n");
+                            Console.WriteLine("\n");
+                            foreach (var person in PeopleManagement.GetInstance().SearchPerson(name, Type.TEACHER)) {
+                                Console.WriteLine(person.ToString());
+                            }
                             break;
                         
                         default:

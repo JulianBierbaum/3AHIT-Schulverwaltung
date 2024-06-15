@@ -51,7 +51,7 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     }
 
     public void AddStudent(string name, string studentClass) {
-        foreach (Student student in _peoples) {
+        foreach (Student student in _peoples.OfType<Student>()) {
             if (student.Name == name && student.StudentClass == studentClass) {
                 throw new DuplicatePersonException(name);
             }
@@ -61,7 +61,7 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     }
 
     public void AddTeacher(string name, List<string> subjects) {
-        foreach (Teacher teacher in _peoples) {
+        foreach (Teacher teacher in _peoples.OfType<Teacher>()) {
             if (teacher.Name == name) {
                 throw new DuplicatePersonException(name);
             }
@@ -71,20 +71,9 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     }
 
     public void RemoveStudent(string name, string studentClass) {
-        foreach (Student student in _peoples) {
+        foreach (Student student in _peoples.OfType<Student>()) {
             if (student.Name == name && student.StudentClass == studentClass) {
                 _peoples.Remove(student);
-                return;
-            }
-        }
-
-        throw new MissingPersonException(name);
-    }
-
-    public void RemoveTeacher(string name) {
-        foreach (Teacher teacher in _peoples) {
-            if (teacher.Name == name) {
-                _peoples.Remove(teacher);
                 return;
             }
         }
@@ -92,8 +81,18 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
         throw new MissingPersonException(name);
     }
 
+    public void RemoveTeacher(string name) {
+        foreach (Teacher teacher in _peoples.OfType<Teacher>()) {
+            if (teacher.Name == name) {
+                _peoples.Remove(teacher);
+                return;
+            }
+        }
+        throw new MissingPersonException(name);
+    }
+
     public void ChangeStudent(string name, string studentClass, string newName, string newStudentClass) {
-        foreach (Student student in _peoples) {
+        foreach (Student student in _peoples.OfType<Student>()) {
             if (student.Name == name && student.StudentClass == studentClass) {
                 student._name = newName;
                 student._studentClass = newStudentClass;
@@ -102,7 +101,7 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     }
 
     public void ChangeTeacher(string name, string newName, List<string> newSubjects) {
-        foreach (Teacher teacher in _peoples) {
+        foreach (Teacher teacher in _peoples.OfType<Teacher>()) {
             if (teacher.Name == name) {
                 teacher._name = newName;
                 teacher._subjects = newSubjects;
