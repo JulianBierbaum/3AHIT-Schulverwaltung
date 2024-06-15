@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "lib-schoolmanagement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/lib-schoolmanagement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib-schoolmanagement.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "lib-schoolmanagement/1.0.0": {
+      "type": "project",
+      "path": "../../src/lib-schoolmanagement/lib-schoolmanagement.csproj",
+      "msbuildProject": "../../src/lib-schoolmanagement/lib-schoolmanagement.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "lib-schoolmanagement >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\bierb\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj": {
+              "projectPath": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\src\\lib-schoolmanagement\\lib-schoolmanagement.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

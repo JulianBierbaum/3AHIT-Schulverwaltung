@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "console-schoolmanagement/1.0.0": {
+        "dependencies": {
+          "lib-schoolmanagement": "1.0.0"
+        },
+        "runtime": {
+          "console-schoolmanagement.dll": {}
+        }
+      },
+      "lib-schoolmanagement/1.0.0": {
+        "runtime": {
+          "lib-schoolmanagement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "console-schoolmanagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lib-schoolmanagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
