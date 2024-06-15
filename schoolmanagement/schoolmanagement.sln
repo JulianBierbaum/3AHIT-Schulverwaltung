@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5905421F-FE5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib-schoolmanagement", "src\lib-schoolmanagement\lib-schoolmanagement.csproj", "{A4BC77A5-C81E-4068-AD95-FC97AFE080E5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F2667AB7-C091-4D84-AE8B-ACF6A43DCD45}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests-schoolmanagement", "test\tests-schoolmanagement\tests-schoolmanagement.csproj", "{9A9D621D-94FC-4A78-9E7D-1B0C298A863B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
