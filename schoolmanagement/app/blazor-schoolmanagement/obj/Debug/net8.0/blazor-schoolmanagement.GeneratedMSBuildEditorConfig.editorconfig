@@ -22,20 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/List.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Routes.razor]
