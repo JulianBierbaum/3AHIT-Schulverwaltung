@@ -14,6 +14,6 @@ public class Teacher : Person {
     }
 
     public override string ToString() {
-        return $"Student: {_name}, {_subjects}";
+        return $"Student: {_name}, Subjects: {string.Join(", ", _subjects)}";
     }
 }
