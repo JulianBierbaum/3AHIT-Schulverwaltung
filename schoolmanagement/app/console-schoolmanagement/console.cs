@@ -44,6 +44,37 @@ class Program {
                             break;
                     }
                     break;
+                
+                case "s":
+                    Console.WriteLine("What do you want to search?:\n");
+                    Console.WriteLine("Students:        | 1 |");
+                    Console.WriteLine("Teachers:        | 2 |\n");
+
+                    switch (Console.ReadLine()) {
+                        case "1":
+                            Console.WriteLine("\n\n");
+                            Console.WriteLine("Name of the Student:");
+                            string? studentName = Console.ReadLine();
+                            Console.WriteLine("\nStudent Class:");
+                            string? studentClass = Console.ReadLine();
+
+                            try {
+                                
+                            }
+                            catch (System.Exception) {
+                                
+                            }
+                            break;
+                        
+                        case "2":
+                            Console.WriteLine("\n\n");
+                            break;
+                        
+                        default:
+                            Console.WriteLine("\nInvalid Input\n\n");
+                            break;
+                    }
+                    break;
 
                 case "q":
                     Environment.Exit(1);

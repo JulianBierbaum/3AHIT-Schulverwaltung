@@ -1,5 +1,6 @@
 namespace lib_schoolmanagement.peopleManagement;
 
+using lib_schoolmanagement.exceptions;
 using lib_schoolmanagement.interfaces.iStudentFunctions;
 using lib_schoolmanagement.interfaces.iTeacherFunctions;
 using lib_schoolmanagement.person;
@@ -50,10 +51,22 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
     }
 
     public void AddStudent(string name, string studentClass) {
+        foreach (Student student in _peoples) {
+            if (student.Name == name && student.StudentClass == studentClass) {
+                throw new DuplicatePersonException(name);
+            }
+        }
+
         _peoples.Add(new Student(name, studentClass));
     }
 
     public void AddTeacher(string name, List<string> subjects) {
+        foreach (Teacher teacher in _peoples) {
+            if (teacher.Name == name) {
+                throw new DuplicatePersonException(name);
+            }
+        }
+
         _peoples.Add(new Teacher(name, subjects));
     }
 
@@ -61,16 +74,22 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
         foreach (Student student in _peoples) {
             if (student.Name == name && student.StudentClass == studentClass) {
                 _peoples.Remove(student);
+                return;
             }
         }
+
+        throw new MissingPersonException(name);
     }
 
     public void RemoveTeacher(string name) {
         foreach (Teacher teacher in _peoples) {
             if (teacher.Name == name) {
                 _peoples.Remove(teacher);
+                return;
             }
         }
+        
+        throw new MissingPersonException(name);
     }
 
     public void ChangeStudent(string name, string studentClass, string newName, string newStudentClass) {
