@@ -29,3 +29,6 @@ C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolm
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\obj\Debug\net8.0\blazor-schoolmanagement.genruntimeconfig.cache
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\obj\Debug\net8.0\ref\blazor-schoolmanagement.dll
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\obj\Debug\net8.0\blazor-schoolmanagement.csproj.AssemblyReference.cache
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\bin\Debug\net8.0\lib-schoolmanagement.dll
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\bin\Debug\net8.0\lib-schoolmanagement.pdb
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\app\blazor-schoolmanagement\obj\Debug\net8.0\blazor-s.3079820A.Up2Date
