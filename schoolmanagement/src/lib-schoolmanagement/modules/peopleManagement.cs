@@ -88,6 +88,7 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
                 return;
             }
         }
+
         throw new MissingPersonException(name);
     }
 
@@ -96,8 +97,11 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
             if (student.Name == name && student.StudentClass == studentClass) {
                 student._name = newName;
                 student._studentClass = newStudentClass;
+                return;
             }
         }
+
+        throw new MissingPersonException(name);
     }
 
     public void ChangeTeacher(string name, string newName, List<string> newSubjects) {
@@ -105,8 +109,11 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
             if (teacher.Name == name) {
                 teacher._name = newName;
                 teacher._subjects = newSubjects;
+                return;
             }
         }
+
+        throw new MissingPersonException(name);
     }
 }
 
