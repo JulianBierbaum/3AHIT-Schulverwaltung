@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5905421F-FE5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib-schoolmanagement", "src\lib-schoolmanagement\lib-schoolmanagement.csproj", "{A4BC77A5-C81E-4068-AD95-FC97AFE080E5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{B39CACF8-67BA-488D-AAAE-6A1B4CC9267D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-schoolmanagement", "app\console-schoolmanagement\console-schoolmanagement.csproj", "{BF60F514-6382-46E1-8EA4-C9439A6CAA0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,9 +28,14 @@ Global
 		{9A9D621D-94FC-4A78-9E7D-1B0C298A863B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9D621D-94FC-4A78-9E7D-1B0C298A863B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9D621D-94FC-4A78-9E7D-1B0C298A863B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF60F514-6382-46E1-8EA4-C9439A6CAA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF60F514-6382-46E1-8EA4-C9439A6CAA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF60F514-6382-46E1-8EA4-C9439A6CAA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF60F514-6382-46E1-8EA4-C9439A6CAA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A4BC77A5-C81E-4068-AD95-FC97AFE080E5} = {5905421F-FE53-425D-A9EC-C09A2660A47A}
 		{9A9D621D-94FC-4A78-9E7D-1B0C298A863B} = {F2667AB7-C091-4D84-AE8B-ACF6A43DCD45}
+		{BF60F514-6382-46E1-8EA4-C9439A6CAA0D} = {B39CACF8-67BA-488D-AAAE-6A1B4CC9267D}
 	EndGlobalSection
 EndGlobal
