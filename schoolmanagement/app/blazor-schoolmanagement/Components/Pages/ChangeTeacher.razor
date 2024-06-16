@@ -1,0 +1,16 @@
+@page "/changeteacher"
+@rendermode InteractiveServer
+@inherits ChangeBase;
+
+<PageTitle>Change Teacher</PageTitle>
+
+<h1>Change Teacher</h1>
+
+<input type="text" placeholder="Teacher Name" required class="form-control" @bind="teacherName">
+<br>
+<input type="text" placeholder="New Teacher Name" class="form-control" @bind="newTeacherName">
+<input type="text" placeholder="new Teacher Subjects (seperate using WHITESPACE, emtpy for same)" class="form-control" @bind="newSubjects">
+<br>
+<button type="submit" class="btn btn-primary" @onclick="ChangeTeacher">Change Entry</button>
+
+<p role="status">@status</p>

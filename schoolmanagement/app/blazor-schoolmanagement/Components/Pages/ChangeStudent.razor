@@ -1,0 +1,17 @@
+@page "/changestudent"
+@rendermode InteractiveServer
+@inherits ChangeBase;
+
+<PageTitle>Change Student</PageTitle>
+
+<h1>Change Student</h1>
+
+<input type="text" placeholder="Student Name" required class="form-control" @bind="studentName">
+<input type="text" placeholder="Student Class" required class="form-control" @bind="studentClass">
+<br>
+<input type="text" placeholder="New Student Name (empty for same)" class="form-control" @bind="newStudentName">
+<input type="text" placeholder="New Student Class (empty for same)" class="form-control" @bind="newStudentClass">
+<br>
+<button type="submit" class="btn btn-primary" @onclick="ChangeStudent">Change Entry</button>
+
+<p role="status">@status</p>
