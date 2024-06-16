@@ -1,0 +1,14 @@
+@page "/removestudent"
+@rendermode InteractiveServer
+@inherits RemoveBase;
+
+<PageTitle>Remove Student</PageTitle>
+
+<h1>Remove Student</h1>
+
+<input type="text" placeholder="Student Name" required class="form-control" @bind="studentName">
+<input type="text" placeholder="Student Class" required class="form-control" @bind="studentClass">
+
+<button type="submit" class="btn btn-primary" @onclick="RemoveStudent">Remove Entry</button>
+
+<p role="status">@status</p>
