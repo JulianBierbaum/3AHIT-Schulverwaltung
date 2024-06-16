@@ -4,6 +4,10 @@
 
 <PageTitle>List</PageTitle>
 
-@GetPeople()
+<h1>List People</h1>
 
-<p>@Person</p>
+<ul>
+    @foreach (var person in people) {
+        <li>@person</li>
+    }
+</ul>

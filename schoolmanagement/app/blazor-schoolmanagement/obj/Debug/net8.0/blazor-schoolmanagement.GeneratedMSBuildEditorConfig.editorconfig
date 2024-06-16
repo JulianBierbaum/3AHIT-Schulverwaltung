@@ -22,12 +22,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/AddStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRTdHVkZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/AddTeacher.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRUZWFjaGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/ChangeStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGFuZ2VTdHVkZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/ChangeTeacher.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGFuZ2VUZWFjaGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/List.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/RemoveStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZW1vdmVTdHVkZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/RemoveTeacher.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZW1vdmVUZWFjaGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bierb/3AHIT-SchulverwaltungBierbaum/schoolmanagement/app/blazor-schoolmanagement/Components/Pages/Search.razor]
