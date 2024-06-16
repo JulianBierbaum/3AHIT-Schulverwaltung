@@ -1,6 +1,5 @@
 ﻿namespace console_schoolmanagement;
 
-using lib_schoolmanagement;
 using lib_schoolmanagement.exceptions;
 using lib_schoolmanagement.peopleManagement;
 

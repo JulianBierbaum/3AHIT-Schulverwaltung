@@ -1,26 +1,18 @@
 namespace blazor_schoolmanagement.Components.Pages;
 
 using Microsoft.AspNetCore.Components;
-using lib_schoolmanagement;
+
+using lib_schoolmanagement.person;
+using lib_schoolmanagement.peopleManagement;
 
 public class ListBase : ComponentBase {
-    protected WeatherForecast[]? forecasts;
+    public string? Person { get; set; }
 
-    protected override async Task OnInitializedAsync() {
-        await Task.Delay(500);
+    public List<Person> GetPeople() {
+        PeopleManagement.GetInstance().AddStudent("test", "3AHIT");
+        List<Person> people = PeopleManagement.GetInstance().ListPersons(Type.STUDENT);
 
-        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast {
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = summaries[Random.Shared.Next(summaries.Length)]
-        }).ToArray();
+        Person = people[0].ToString();
+        return people;
     }
-
-    protected class WeatherForecast {
-        public int TemperatureC { get; set; }
-        public string? Summary { get; set; }
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
-
-    
 }
