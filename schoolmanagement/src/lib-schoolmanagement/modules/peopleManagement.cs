@@ -35,14 +35,11 @@ public class PeopleManagement: IStudentFunctions, ITeacherFunctions {
         return listedPersons;
     }
 
-    public List<Person> SearchPerson(string name, Type type) {
+    public List<Person> SearchPerson(string name) {
         List<Person> searchedPersons = new List<Person>();
 
         foreach (Person person in _peoples) {
-            if (person.Name == name && person.GetType() == typeof(Student) && type == Type.STUDENT) {
-                searchedPersons.Add(person);
-            }
-            else if (person.Name == name && person.GetType() == typeof(Teacher) && type == Type.TEACHER) {
+            if (person.Name == name) {
                 searchedPersons.Add(person);
             }
         }
