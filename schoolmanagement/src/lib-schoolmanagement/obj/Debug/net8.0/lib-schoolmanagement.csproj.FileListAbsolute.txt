@@ -10,3 +10,15 @@ C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\src\lib-schoolmana
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\refint\lib-schoolmanagement.dll
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.pdb
 C:\Users\bierb\3AHIT-SchulverwaltungBierbaum\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\ref\lib-schoolmanagement.dll
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\bin\Debug\net8.0\lib-schoolmanagement.deps.json
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\bin\Debug\net8.0\lib-schoolmanagement.dll
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\bin\Debug\net8.0\lib-schoolmanagement.pdb
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.AssemblyInfoInputs.cache
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.AssemblyInfo.cs
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.csproj.CoreCompileInputs.cache
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.sourcelink.json
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.dll
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\refint\lib-schoolmanagement.dll
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\lib-schoolmanagement.pdb
+C:\Users\bierb\3AHIT-SchulverwaltungBierbaum-2\schoolmanagement\src\lib-schoolmanagement\obj\Debug\net8.0\ref\lib-schoolmanagement.dll

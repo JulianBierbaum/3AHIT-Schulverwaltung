@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blazor-schoolmanagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ae3b15e1696008793611d13bf82d1300f55184a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06df64afaaf2ed24a7b76a30f8121d434764eb3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("blazor-schoolmanagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blazor-schoolmanagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

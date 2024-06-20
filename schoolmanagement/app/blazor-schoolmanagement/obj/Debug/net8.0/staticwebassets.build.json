@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EY1mmk60SRUysZCY2RyPpYhrSaQ72ZDr4/MUMcpxMT8=",
+  "Hash": "ExUxwkobJRz2y+cLiXmXeQrYY3sHvoANAFIv6CIP3HQ=",
   "Source": "blazor-schoolmanagement",
   "BasePath": "_content/blazor-schoolmanagement",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "blazor-schoolmanagement\\wwwroot",
       "Source": "blazor-schoolmanagement",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-schoolmanagement.styles.css",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-schoolmanagement.styles.css",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "blazor-schoolmanagement.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-schoolmanagement.styles.css"
+      "OriginalItemSpec": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor-schoolmanagement.styles.css"
     },
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-schoolmanagement.bundle.scp.css",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-schoolmanagement.bundle.scp.css",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "blazor-schoolmanagement.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-schoolmanagement.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blazor-schoolmanagement.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\app.css",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\favicon.png",
       "SourceId": "blazor-schoolmanagement",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bierb\\3AHIT-SchulverwaltungBierbaum-2\\schoolmanagement\\app\\blazor-schoolmanagement\\wwwroot\\",
       "BasePath": "_content/blazor-schoolmanagement",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

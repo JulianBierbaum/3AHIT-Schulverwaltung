@@ -1,5 +1,8 @@
 namespace lib_schoolmanagement.person;
 
+/// <summary>
+/// Abstract Class Person
+/// </summary>
 public abstract class Person {
     internal string _name;
 
